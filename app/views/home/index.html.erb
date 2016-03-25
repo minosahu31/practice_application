@@ -1,0 +1,8 @@
+<div class="container">
+	<div class="col-md-8 col-md-offset-2">
+		<%= simple_form_for(@companies, url: home_path(1)) do |f| %>
+			<%= f.input :company_name %>
+		<%= f.button :submit %>
+		<% end %>
+	</div>
+</div
